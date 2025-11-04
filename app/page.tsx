@@ -10,7 +10,7 @@ export default function Home() {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          "https://generate-random.org/api/v1/generate/strings?type=base64&count=10&byte_count=16&url_safe=false&no_padding=false"
+          "https://generate-random.org/api/v1/generate/strings?type=base64&count=9&byte_count=16&url_safe=false&no_padding=false"
         );
         const data = await response.json();
 
